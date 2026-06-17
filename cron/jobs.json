@@ -1,0 +1,440 @@
+{
+  "jobs": [
+    {
+      "id": "74fd174cbc25",
+      "name": "\u0415\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u0441\u0431\u043e\u0440\u044b",
+      "prompt": "\u041e\u043f\u0443\u0431\u043b\u0438\u043a\u0443\u0439 \u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u0443\u044e \u0441\u0432\u043e\u0434\u043a\u0443 \u043a\u0430\u0441\u0441\u043e\u0432\u044b\u0445 \u0441\u0431\u043e\u0440\u043e\u0432 \u0420\u0424 \u0437\u0430 \u0432\u0447\u0435\u0440\u0430\u0448\u043d\u0438\u0439 \u0434\u0435\u043d\u044c.\n\n1. \u041e\u0442\u043a\u0440\u043e\u0439 \u0431\u0440\u0430\u0443\u0437\u0435\u0440\u043e\u043c https://ekinobilet.fond-kino.ru/statistics/\n2. \u041f\u0440\u043e\u043a\u0440\u0443\u0442\u0438 \u0432\u043d\u0438\u0437 \u0434\u043e \u0442\u0430\u0431\u043b\u0438\u0446\u044b \u00ab\u0422\u041e\u041f \u2014 20 \u043f\u043e \u0420\u043e\u0441\u0441\u0438\u0438\u00bb\n3. \u0418\u0437\u0432\u043b\u0435\u043a\u0438 \u0442\u043e\u043f-10 \u0444\u0438\u043b\u044c\u043c\u043e\u0432: \u043f\u043e\u0437\u0438\u0446\u0438\u044f, \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435, \u0441\u0431\u043e\u0440\u044b (\u20bd), \u0437\u0440\u0438\u0442\u0435\u043b\u0438\n4. \u041f\u043e\u0441\u0447\u0438\u0442\u0430\u0439 \u0441\u0443\u043c\u043c\u0443 \u0441\u0431\u043e\u0440\u043e\u0432 \u0442\u043e\u043f-10 \u0438 \u043e\u0431\u0449\u0435\u0435 \u0447\u0438\u0441\u043b\u043e \u0437\u0440\u0438\u0442\u0435\u043b\u0435\u0439\n5. \u041e\u0442\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u0440\u0443\u0439 \u0441\u0442\u0440\u043e\u0433\u043e \u043f\u043e \u0448\u0430\u0431\u043b\u043e\u043d\u0443:\n\n\ud83c\udfac \u041a\u0430\u0441\u0441\u043e\u0432\u044b\u0435 \u0441\u0431\u043e\u0440\u044b \u0420\u0424 \u0437\u0430 [\u0434\u0430\u0442\u0430]\n\n\ud83e\udd47 [\u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435]\n\ud83d\udcb0 [\u0441\u0431\u043e\u0440\u044b] \u20bd | \ud83d\udc65 [\u0437\u0440\u0438\u0442\u0435\u043b\u0438] \u0437\u0440\u0438\u0442\u0435\u043b\u0435\u0439\n... (\u0434\u043b\u044f \u0432\u0441\u0435\u0445 10 \u043f\u043e\u0437\u0438\u0446\u0438\u0439)\n\n\ud83d\udcb0 \u0421\u0443\u043c\u043c\u0430 \u0442\u043e\u043f-10: [\u0441\u0443\u043c\u043c\u0430] \u20bd\n\ud83d\udc65 \u0412\u0441\u0435\u0433\u043e \u0437\u0440\u0438\u0442\u0435\u043b\u0435\u0439 \u0442\u043e\u043f-10: [\u0447\u0438\u0441\u043b\u043e]\n\ud83d\udcca \u0415\u0410\u0418\u0421 (\u0424\u043e\u043d\u0434 \u043a\u0438\u043d\u043e)\n\n\u0412\u0410\u0416\u041d\u041e: \u041d\u0438\u043a\u0430\u043a\u0438\u0445 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0435\u0432, \u043d\u0438\u043a\u0430\u043a\u0438\u0445 \u00ab\u0432\u043e\u0442 \u0441\u0432\u043e\u0434\u043a\u0430\u00bb, \u00ab\u0434\u0435\u0440\u0436\u0438\u00bb, \u00ab\u0433\u043e\u0442\u043e\u0432\u043e\u00bb, \u043d\u0438\u043a\u0430\u043a\u0438\u0445 \u0441\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0445 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0439, \u043d\u0438\u043a\u0430\u043a\u0438\u0445 git-\u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439, \u043d\u0438\u043a\u0430\u043a\u0438\u0445 \u043c\u0430\u0440\u043a\u0435\u0440\u043e\u0432 \u043e\u043a\u043e\u043d\u0447\u0430\u043d\u0438\u044f \u0440\u0430\u0431\u043e\u0442\u044b. \u0422\u041e\u041b\u042c\u041a\u041e \u0441\u0432\u043e\u0434\u043a\u0430 \u043f\u043e \u0448\u0430\u0431\u043b\u043e\u043d\u0443 \u0432\u044b\u0448\u0435. \u041e\u0434\u043d\u043e \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u2014 \u0438 \u0432\u0441\u0451.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 2 * * *",
+        "display": "0 2 * * *"
+      },
+      "schedule_display": "0 2 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 2
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-15T19:27:28.407510-04:00",
+      "next_run_at": "2026-06-18T02:00:00-04:00",
+      "last_run_at": "2026-06-16T15:25:03.490104-04:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": "delivery error: Telegram send failed: Timed out",
+      "deliver": "telegram:-1004313130186",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "454610487",
+        "chat_name": "\u0411\u043e\u0440\u0438\u0441 \u041c\u044f\u0433\u043a\u043e\u0432",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "browser"
+      ],
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "edb12d88d206",
+      "name": "\u041f\u0440\u0435\u043c\u044c\u0435\u0440\u044b \u043d\u0435\u0434\u0435\u043b\u0438",
+      "prompt": "\u041e\u043f\u0443\u0431\u043b\u0438\u043a\u0443\u0439 \u0441\u0432\u043e\u0434\u043a\u0443 \u043f\u0440\u0435\u043c\u044c\u0435\u0440 \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u043d\u0435\u0434\u0435\u043b\u0438 \u0432 \u043a\u0430\u043d\u0430\u043b \u00ab\u041a\u0430\u0441\u0441\u043e\u0432\u044b\u0435 \u0441\u0431\u043e\u0440\u044b\u00bb.\n\n1. \u041e\u0442\u043a\u0440\u043e\u0439 \u0431\u0440\u0430\u0443\u0437\u0435\u0440\u043e\u043c \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0443 \u0441 \u043f\u0440\u0435\u043c\u044c\u0435\u0440\u0430\u043c\u0438 \u043d\u0430 \u041a\u0438\u043d\u043e\u043f\u043e\u0438\u0441\u043a\u0435: https://www.kinopoisk.ru/premiere/\n2. \u0418\u0437\u0432\u043b\u0435\u043a\u0438 \u0432\u0441\u0435 \u043f\u0440\u0435\u043c\u044c\u0435\u0440\u044b \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u043d\u0435\u0434\u0435\u043b\u0438: \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435, \u0436\u0430\u043d\u0440, \u0441\u0442\u0440\u0430\u043d\u0430, \u0434\u0430\u0442\u0430 \u0432\u044b\u0445\u043e\u0434\u0430\n3. \u041e\u0442\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u0440\u0443\u0439:\n\n\ud83d\udcc5 \u041f\u0440\u0435\u043c\u044c\u0435\u0440\u044b \u043d\u0435\u0434\u0435\u043b\u0438\n\n\u2022 \u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u2014 \u0436\u0430\u043d\u0440 (\u0441\u0442\u0440\u0430\u043d\u0430)\n   \ud83d\udcc5 \u0434\u0430\u0442\u0430\n\n\u0412\u0410\u0416\u041d\u041e: \u041d\u0438\u043a\u0430\u043a\u0438\u0445 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0435\u0432, \u00ab\u0432\u043e\u0442 \u0441\u0432\u043e\u0434\u043a\u0430\u00bb, \u00ab\u0434\u0435\u0440\u0436\u0438\u00bb, \u0441\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0445 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0439, git-\u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439, \u043c\u0430\u0440\u043a\u0435\u0440\u043e\u0432 \u043e\u043a\u043e\u043d\u0447\u0430\u043d\u0438\u044f \u0440\u0430\u0431\u043e\u0442\u044b. \u0422\u043e\u043b\u044c\u043a\u043e \u0441\u0432\u043e\u0434\u043a\u0430 \u043f\u043e \u0448\u0430\u0431\u043b\u043e\u043d\u0443.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 1 * * 1",
+        "display": "0 1 * * 1"
+      },
+      "schedule_display": "0 1 * * 1",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-15T19:27:33.382580-04:00",
+      "next_run_at": "2026-06-22T01:00:00-04:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1004313130186",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "454610487",
+        "chat_name": "\u0411\u043e\u0440\u0438\u0441 \u041c\u044f\u0433\u043a\u043e\u0432",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "browser"
+      ],
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "8960fde2ce46",
+      "name": "\u0418\u0442\u043e\u0433\u0438 \u0443\u0438\u043a\u0435\u043d\u0434\u0430",
+      "prompt": "\u041e\u043f\u0443\u0431\u043b\u0438\u043a\u0443\u0439 \u0438\u0442\u043e\u0433\u0438 \u043a\u0438\u043d\u043e\u043f\u0440\u043e\u043a\u0430\u0442\u043d\u043e\u0433\u043e \u0443\u0438\u043a\u0435\u043d\u0434\u0430 (\u043f\u044f\u0442\u043d\u0438\u0446\u0430-\u0432\u043e\u0441\u043a\u0440\u0435\u0441\u0435\u043d\u044c\u0435) \u0432 \u043a\u0430\u043d\u0430\u043b \u00ab\u041a\u0430\u0441\u0441\u043e\u0432\u044b\u0435 \u0441\u0431\u043e\u0440\u044b\u00bb.\n\n1. \u041e\u0442\u043a\u0440\u043e\u0439 \u0431\u0440\u0430\u0443\u0437\u0435\u0440\u043e\u043c https://ekinobilet.fond-kino.ru/statistics/\n2. \u041f\u0435\u0440\u0435\u043a\u043b\u044e\u0447\u0438 \u043f\u0435\u0440\u0438\u043e\u0434 \u043d\u0430 \u00ab\u0423\u0438\u043a\u0435\u043d\u0434\u00bb \u0438 \u0432\u044b\u0431\u0435\u0440\u0438 \u043f\u0440\u043e\u0448\u0435\u0434\u0448\u0438\u0435 \u043f\u0442-\u0432\u0441\n3. \u0418\u0437\u0432\u043b\u0435\u043a\u0438 \u0442\u043e\u043f-10 \u0444\u0438\u043b\u044c\u043c\u043e\u0432: \u043f\u043e\u0437\u0438\u0446\u0438\u044f, \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435, \u0441\u0431\u043e\u0440\u044b, \u0437\u0440\u0438\u0442\u0435\u043b\u0438\n4. \u041e\u0442\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u0440\u0443\u0439:\n\n\ud83d\udcca \u0418\u0442\u043e\u0433\u0438 \u0443\u0438\u043a\u0435\u043d\u0434\u0430\n\n\ud83e\udd47 \u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u2014 \u0441\u0431\u043e\u0440\u044b \u20bd\n\ud83e\udd48 ...\n\ud83d\udcc8 \u041a\u0440\u0430\u0442\u043a\u0438\u0439 \u0430\u043d\u0430\u043b\u0438\u0437 (1-2 \u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u044f)\n\n\u0412\u0410\u0416\u041d\u041e: \u041d\u0438\u043a\u0430\u043a\u0438\u0445 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0435\u0432, \u00ab\u0432\u043e\u0442 \u0438\u0442\u043e\u0433\u0438\u00bb, \u00ab\u0434\u0435\u0440\u0436\u0438\u00bb, \u0441\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0445 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0439. \u0422\u043e\u043b\u044c\u043a\u043e \u0441\u0432\u043e\u0434\u043a\u0430.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * 1",
+        "display": "0 3 * * 1"
+      },
+      "schedule_display": "0 3 * * 1",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-15T19:27:38.867353-04:00",
+      "next_run_at": "2026-06-22T03:00:00-04:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1004313130186",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "454610487",
+        "chat_name": "\u0411\u043e\u0440\u0438\u0441 \u041c\u044f\u0433\u043a\u043e\u0432",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "browser"
+      ],
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "938ac0e37528",
+      "name": "\u041f\u0440\u0435\u043c\u044c\u0435\u0440\u044b \u0441\u0435\u0433\u043e\u0434\u043d\u044f",
+      "prompt": "\u041e\u043f\u0443\u0431\u043b\u0438\u043a\u0443\u0439 \u0441\u0432\u043e\u0434\u043a\u0443 \u0441\u0435\u0433\u043e\u0434\u043d\u044f\u0448\u043d\u0438\u0445 \u043f\u0440\u0435\u043c\u044c\u0435\u0440 \u0432 \u043a\u0430\u043d\u0430\u043b \u00ab\u041a\u0430\u0441\u0441\u043e\u0432\u044b\u0435 \u0441\u0431\u043e\u0440\u044b\u00bb.\n\n1. \u041e\u0442\u043a\u0440\u043e\u0439 \u0431\u0440\u0430\u0443\u0437\u0435\u0440\u043e\u043c \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0443 \u043f\u0440\u0435\u043c\u044c\u0435\u0440 \u041a\u0438\u043d\u043e\u043f\u043e\u0438\u0441\u043a\u0430: https://www.kinopoisk.ru/premiere/\n2. \u041d\u0430\u0439\u0434\u0438 \u0444\u0438\u043b\u044c\u043c\u044b \u0441 \u0441\u0435\u0433\u043e\u0434\u043d\u044f\u0448\u043d\u0435\u0439 \u0434\u0430\u0442\u043e\u0439 \u0432\u044b\u0445\u043e\u0434\u0430\n3. \u0418\u0437\u0432\u043b\u0435\u043a\u0438: \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435, \u0436\u0430\u043d\u0440, \u0441\u0442\u0440\u0430\u043d\u0430, \u0432\u043e\u0437\u0440\u0430\u0441\u0442\u043d\u043e\u0439 \u0440\u0435\u0439\u0442\u0438\u043d\u0433\n4. \u041e\u0442\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u0440\u0443\u0439:\n\n\ud83c\udfac \u041f\u0440\u0435\u043c\u044c\u0435\u0440\u044b \u0441\u0435\u0433\u043e\u0434\u043d\u044f ([\u0434\u0430\u0442\u0430])\n\n\u2022 \u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u2014 \u0436\u0430\u043d\u0440 (\u0441\u0442\u0440\u0430\u043d\u0430) [\u0432\u043e\u0437\u0440\u0430\u0441\u0442+]\n\n\u0412\u0410\u0416\u041d\u041e: \u041d\u0438\u043a\u0430\u043a\u0438\u0445 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0435\u0432, \u00ab\u0432\u043e\u0442 \u043f\u0440\u0435\u043c\u044c\u0435\u0440\u044b\u00bb, \u0441\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0445 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0439. \u0422\u043e\u043b\u044c\u043a\u043e \u0441\u0432\u043e\u0434\u043a\u0430.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 0 * * 4",
+        "display": "0 0 * * 4"
+      },
+      "schedule_display": "0 0 * * 4",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-15T19:27:44.380537-04:00",
+      "next_run_at": "2026-06-18T00:00:00-04:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1004313130186",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "454610487",
+        "chat_name": "\u0411\u043e\u0440\u0438\u0441 \u041c\u044f\u0433\u043a\u043e\u0432",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "browser"
+      ],
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "908fb7feceb0",
+      "name": "\u0412\u0441\u0435 \u043f\u0440\u0435\u043c\u044c\u0435\u0440\u044b \u043c\u0435\u0441\u044f\u0446\u0430",
+      "prompt": "\u041e\u043f\u0443\u0431\u043b\u0438\u043a\u0443\u0439 \u0441\u0432\u043e\u0434\u043a\u0443 \u0432\u0441\u0435\u0445 \u043f\u0440\u0435\u043c\u044c\u0435\u0440 \u0442\u0435\u043a\u0443\u0449\u0435\u0433\u043e \u043c\u0435\u0441\u044f\u0446\u0430 \u0432 \u043a\u0430\u043d\u0430\u043b \u00ab\u041a\u0430\u0441\u0441\u043e\u0432\u044b\u0435 \u0441\u0431\u043e\u0440\u044b\u00bb.\n\n1. \u041e\u0442\u043a\u0440\u043e\u0439 \u0431\u0440\u0430\u0443\u0437\u0435\u0440\u043e\u043c \u041a\u0438\u043d\u043e\u043f\u043e\u0438\u0441\u043a: https://www.kinopoisk.ru/premiere/\n2. \u0418\u0437\u0432\u043b\u0435\u043a\u0438 \u0432\u0441\u0435 \u043f\u0440\u0435\u043c\u044c\u0435\u0440\u044b \u0442\u0435\u043a\u0443\u0449\u0435\u0433\u043e \u043c\u0435\u0441\u044f\u0446\u0430: \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435, \u0436\u0430\u043d\u0440, \u0441\u0442\u0440\u0430\u043d\u0430, \u0434\u0430\u0442\u0430\n3. \u041e\u0442\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u0440\u0443\u0439:\n\n\ud83d\udccb \u0412\u0441\u0435 \u043f\u0440\u0435\u043c\u044c\u0435\u0440\u044b [\u043c\u0435\u0441\u044f\u0446]\n\n\u2022 \u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u2014 \u0436\u0430\u043d\u0440 (\u0441\u0442\u0440\u0430\u043d\u0430)\n   \ud83d\udcc5 \u0434\u0430\u0442\u0430\n\n\u0412\u0410\u0416\u041d\u041e: \u041d\u0438\u043a\u0430\u043a\u0438\u0445 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0435\u0432, \u00ab\u0432\u043e\u0442 \u0441\u043f\u0438\u0441\u043e\u043a\u00bb, \u0441\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0445 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0439. \u0422\u043e\u043b\u044c\u043a\u043e \u0441\u0432\u043e\u0434\u043a\u0430.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 1 1 * *",
+        "display": "0 1 1 * *"
+      },
+      "schedule_display": "0 1 1 * *",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-15T19:27:49.040559-04:00",
+      "next_run_at": "2026-07-01T01:00:00-04:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1004313130186",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "454610487",
+        "chat_name": "\u0411\u043e\u0440\u0438\u0441 \u041c\u044f\u0433\u043a\u043e\u0432",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "browser"
+      ],
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "82e73b437fcf",
+      "name": "\u042d\u043a\u0441\u043f\u043e\u0440\u0442 Apple Health",
+      "prompt": "\u041d\u0430\u043f\u043e\u043c\u043d\u0438 \u0411\u043e\u0440\u0438\u0441\u0443 \u0441\u0434\u0435\u043b\u0430\u0442\u044c \u044d\u043a\u0441\u043f\u043e\u0440\u0442 \u0434\u0430\u043d\u043d\u044b\u0445 Apple Health \u0441 iPhone: \u043e\u0442\u043a\u0440\u043e\u0439 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 Health \u2192 \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f \u2192 \u042d\u043a\u0441\u043f\u043e\u0440\u0442\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432\u0441\u0435 \u0434\u0430\u043d\u043d\u044b\u0435 \u2192 AirDrop \u043d\u0430 Mac \u2192 \u0441\u043e\u0445\u0440\u0430\u043d\u0438\u0442\u044c \u0432 ~/Downloads/\u044d\u043a\u0441\u043f\u043e\u0440\u0442.zip",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 */10 * *",
+        "display": "0 9 */10 * *"
+      },
+      "schedule_display": "0 9 */10 * *",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-16T16:29:26.962944-04:00",
+      "next_run_at": "2026-06-21T09:00:00-04:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "7430c5bc687c",
+      "name": "\u0412\u0435\u0447\u0435\u0440\u043d\u0438\u0439 \u0447\u0435\u043a\u0438\u043d: \u0448\u0430\u0433\u0438 \u0438 \u043f\u0438\u0442\u0430\u043d\u0438\u0435",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "evening-checkin.sh",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 19 * * *",
+        "display": "0 19 * * *"
+      },
+      "schedule_display": "0 19 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 1
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-16T16:43:36.770172-04:00",
+      "next_run_at": "2026-06-17T19:00:00-04:00",
+      "last_run_at": "2026-06-16T19:00:58.491757-04:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "454610487",
+        "chat_name": "\u0411\u043e\u0440\u0438\u0441 \u041c\u044f\u0433\u043a\u043e\u0432",
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "99ff88222bde",
+      "name": "\u041d\u0430\u043f\u043e\u043c\u0438\u043d\u0430\u043d\u0438\u0435 \u043e \u043f\u0440\u0438\u0451\u043c\u0435 \u043f\u0438\u0449\u0438",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "meal-reminder.sh",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "*/15 4-18 * * *",
+        "display": "*/15 4-18 * * *"
+      },
+      "schedule_display": "*/15 4-18 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 47
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-16T16:44:59.772072-04:00",
+      "next_run_at": "2026-06-17T15:30:00-04:00",
+      "last_run_at": "2026-06-17T15:15:26.038963-04:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "454610487",
+        "chat_name": "\u0411\u043e\u0440\u0438\u0441 \u041c\u044f\u0433\u043a\u043e\u0432",
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "77d0e5bcde71",
+      "name": "wagon-bot-watchdog",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "wagon_bot_watchdog.sh",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "*/5 * * * *",
+        "display": "*/5 * * * *"
+      },
+      "schedule_display": "*/5 * * * *",
+      "repeat": {
+        "times": null,
+        "completed": 79
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-17T08:49:41.065829-04:00",
+      "next_run_at": "2026-06-17T15:25:00-04:00",
+      "last_run_at": "2026-06-17T15:20:26.277263-04:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "454610487",
+        "chat_name": "\u0411\u043e\u0440\u0438\u0441 \u041c\u044f\u0433\u043a\u043e\u0432",
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "63f47ca2f8dd",
+      "name": "wagon-bot-daily-restart",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "wagon_bot_watchdog.sh --force",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 20 * * *",
+        "display": "0 20 * * *"
+      },
+      "schedule_display": "0 20 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-17T08:49:42.220809-04:00",
+      "next_run_at": "2026-06-17T20:00:00-04:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "454610487",
+        "chat_name": "\u0411\u043e\u0440\u0438\u0441 \u041c\u044f\u0433\u043a\u043e\u0432",
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    }
+  ],
+  "updated_at": "2026-06-17T15:20:26.278050-04:00"
+}

@@ -1,4 +1,17 @@
 {
+  "OSINT": {
+    "archived_at": null,
+    "created_at": "2026-06-17T18:11:58.390054+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": "2026-06-17T18:14:00.568776+00:00",
+    "last_viewed_at": "2026-06-17T18:14:00.567697+00:00",
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 2,
+    "view_count": 2
+  },
   "apple-calendar": {
     "archived_at": null,
     "created_at": "2026-06-16T19:51:48.329582+00:00",
@@ -33,6 +46,19 @@
     "last_used_at": "2026-06-16T19:42:37.051060+00:00",
     "last_viewed_at": "2026-06-16T19:42:37.049889+00:00",
     "patch_count": 1,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 1
+  },
+  "comfyui": {
+    "archived_at": null,
+    "created_at": "2026-06-17T12:13:49.156769+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": "2026-06-17T12:13:49.157975+00:00",
+    "last_viewed_at": "2026-06-17T12:13:49.156790+00:00",
+    "patch_count": 0,
     "pinned": false,
     "state": "active",
     "use_count": 1,
@@ -77,6 +103,19 @@
     "use_count": 14,
     "view_count": 14
   },
+  "github-pr-workflow": {
+    "archived_at": null,
+    "created_at": "2026-06-17T19:21:14.953356+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": "2026-06-17T19:21:14.954685+00:00",
+    "last_viewed_at": "2026-06-17T19:21:14.953375+00:00",
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 1
+  },
   "google-workspace": {
     "archived_at": null,
     "created_at": "2026-06-16T15:06:59.194222+00:00",
@@ -95,13 +134,13 @@
     "created_at": "2026-06-16T14:54:54.836710+00:00",
     "created_by": null,
     "last_patched_at": null,
-    "last_used_at": "2026-06-17T11:45:48.595737+00:00",
-    "last_viewed_at": "2026-06-17T11:45:48.594527+00:00",
+    "last_used_at": "2026-06-17T18:42:32.981618+00:00",
+    "last_viewed_at": "2026-06-17T18:42:32.980472+00:00",
     "patch_count": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 6,
-    "view_count": 6
+    "use_count": 9,
+    "view_count": 9
   },
   "hermes-agent-skill-authoring": {
     "archived_at": null,
@@ -115,6 +154,32 @@
     "state": "active",
     "use_count": 1,
     "view_count": 1
+  },
+  "humanizer": {
+    "archived_at": null,
+    "created_at": "2026-06-17T18:18:53.254960+00:00",
+    "created_by": null,
+    "last_patched_at": "2026-06-17T18:53:04.425471+00:00",
+    "last_used_at": "2026-06-17T18:36:42.804887+00:00",
+    "last_viewed_at": "2026-06-17T18:36:42.803626+00:00",
+    "patch_count": 1,
+    "pinned": false,
+    "state": "active",
+    "use_count": 2,
+    "view_count": 2
+  },
+  "image-generation-openrouter": {
+    "archived_at": null,
+    "created_at": "2026-06-17T12:38:28.898401+00:00",
+    "created_by": null,
+    "last_patched_at": "2026-06-17T17:46:48.480892+00:00",
+    "last_used_at": "2026-06-17T17:46:19.957638+00:00",
+    "last_viewed_at": "2026-06-17T17:46:19.955107+00:00",
+    "patch_count": 7,
+    "pinned": false,
+    "state": "active",
+    "use_count": 5,
+    "view_count": 5
   },
   "macos-computer-use": {
     "archived_at": null,
@@ -133,40 +198,40 @@
     "archived_at": null,
     "created_at": "2026-06-16T19:11:33.591895+00:00",
     "created_by": null,
-    "last_patched_at": "2026-06-17T10:11:24.031847+00:00",
-    "last_used_at": "2026-06-17T10:29:09.929582+00:00",
-    "last_viewed_at": "2026-06-17T10:29:09.926492+00:00",
-    "patch_count": 11,
+    "last_patched_at": "2026-06-17T18:52:52.222463+00:00",
+    "last_used_at": "2026-06-17T18:52:30.642360+00:00",
+    "last_viewed_at": "2026-06-17T18:52:30.640594+00:00",
+    "patch_count": 35,
     "pinned": false,
     "state": "active",
-    "use_count": 4,
-    "view_count": 4
+    "use_count": 14,
+    "view_count": 14
   },
   "nutriciolog-coach": {
     "archived_at": null,
     "created_at": "2026-06-16T20:45:11.758837+00:00",
     "created_by": null,
     "last_patched_at": "2026-06-17T10:11:32.988652+00:00",
-    "last_used_at": "2026-06-17T10:29:09.931052+00:00",
-    "last_viewed_at": "2026-06-17T10:29:09.928936+00:00",
+    "last_used_at": "2026-06-17T17:57:00.619455+00:00",
+    "last_viewed_at": "2026-06-17T17:57:00.617384+00:00",
     "patch_count": 11,
     "pinned": false,
     "state": "active",
-    "use_count": 5,
-    "view_count": 5
+    "use_count": 7,
+    "view_count": 7
   },
   "nutriciolog-eliseeva": {
     "archived_at": null,
     "created_at": "2026-06-15T23:18:17.482439+00:00",
     "created_by": null,
     "last_patched_at": "2026-06-16T17:54:58.890316+00:00",
-    "last_used_at": "2026-06-16T20:39:31.128853+00:00",
-    "last_viewed_at": "2026-06-16T20:39:31.127747+00:00",
+    "last_used_at": "2026-06-17T17:57:00.620213+00:00",
+    "last_viewed_at": "2026-06-17T17:57:00.618784+00:00",
     "patch_count": 7,
     "pinned": false,
     "state": "active",
-    "use_count": 10,
-    "view_count": 10
+    "use_count": 11,
+    "view_count": 11
   },
   "ocr-and-documents": {
     "archived_at": null,
@@ -207,6 +272,19 @@
     "use_count": 2,
     "view_count": 2
   },
+  "procedural-image-generation": {
+    "archived_at": null,
+    "created_at": "2026-06-17T12:20:21.202802+00:00",
+    "created_by": "agent",
+    "last_patched_at": "2026-06-17T12:21:07.494420+00:00",
+    "last_used_at": "2026-06-17T12:21:13.993148+00:00",
+    "last_viewed_at": "2026-06-17T12:21:13.991173+00:00",
+    "patch_count": 3,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 1
+  },
   "russian-boxoffice": {
     "archived_at": null,
     "created_at": "2026-06-15T23:28:38.781345+00:00",
@@ -220,18 +298,44 @@
     "use_count": 15,
     "view_count": 15
   },
+  "screenplay-development": {
+    "archived_at": null,
+    "created_at": "2026-06-17T18:53:23.863868+00:00",
+    "created_by": "agent",
+    "last_patched_at": "2026-06-17T18:53:32.867225+00:00",
+    "last_used_at": null,
+    "last_viewed_at": null,
+    "patch_count": 1,
+    "pinned": false,
+    "state": "active",
+    "use_count": 0,
+    "view_count": 0
+  },
   "telegram-bot-development": {
     "archived_at": null,
     "created_at": "2026-06-17T11:14:19.646815+00:00",
     "created_by": "agent",
-    "last_patched_at": "2026-06-17T11:28:11.505018+00:00",
-    "last_used_at": "2026-06-17T11:28:17.897336+00:00",
-    "last_viewed_at": "2026-06-17T11:28:17.895560+00:00",
-    "patch_count": 9,
+    "last_patched_at": "2026-06-17T12:05:11.979510+00:00",
+    "last_used_at": "2026-06-17T12:04:16.819868+00:00",
+    "last_viewed_at": "2026-06-17T12:04:16.817932+00:00",
+    "patch_count": 14,
     "pinned": false,
     "state": "active",
-    "use_count": 7,
-    "view_count": 7
+    "use_count": 15,
+    "view_count": 15
+  },
+  "vercel-deploy": {
+    "archived_at": null,
+    "created_at": "2026-06-17T16:19:36.146237+00:00",
+    "created_by": "agent",
+    "last_patched_at": "2026-06-17T16:19:54.452756+00:00",
+    "last_used_at": null,
+    "last_viewed_at": null,
+    "patch_count": 1,
+    "pinned": false,
+    "state": "active",
+    "use_count": 0,
+    "view_count": 0
   },
   "youtube-content": {
     "archived_at": null,

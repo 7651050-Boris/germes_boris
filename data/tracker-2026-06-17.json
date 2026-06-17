@@ -1,0 +1,65 @@
+{
+  "date": "2026-06-17",
+  "meals": [
+    {
+      "num": 1,
+      "name": "breakfast",
+      "time": "09:39",
+      "description": "Перловая каша на воде (~170г) + яблоко + 1 варёное яйцо"
+    },
+    {
+      "num": 2,
+      "name": "lunch",
+      "time": "12:40",
+      "description": "Перловка 5 ст.л. + 3 куриные котлеты + огурец, черри"
+    },
+    {
+      "num": 3,
+      "name": "snack",
+      "time": "15:50",
+      "description": "Полдник: йогурт греческий Lactica с черникой, творог Простоквашино 5%, груша"
+    },
+    {
+      "num": 4,
+      "name": "dinner",
+      "time": "20:57",
+      "description": "Стрипсы куриные жареные в соусе барбекю (Мираторг), 200г — НАРУШЕНИЕ: жареное + промышленный соус"
+    }
+  ],
+  "water_ml": 1860,
+  "water_log": [
+    {
+      "time": "09:30",
+      "ml": 400,
+      "cumulative": 400
+    },
+    {
+      "time": "10:22",
+      "ml": 300,
+      "cumulative": 700
+    },
+    {
+      "time": "11:37",
+      "ml": 330,
+      "cumulative": 1030
+    },
+    {
+      "time": "16:09",
+      "ml": 330,
+      "cumulative": 1360
+    },
+    {
+      "time": "20:59",
+      "ml": 500,
+      "cumulative": 1860
+    }
+  ],
+  "steps": null,
+  "steps_reported": false,
+  "evening_check_sent": false,
+  "reminders_sent": [
+    "lunch",
+    "snack",
+    "dinner"
+  ]
+}

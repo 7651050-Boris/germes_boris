@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Осибана — гербарий в стекле</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #F7F3EE;
+  --text: #3D3530;
+  --accent: #C4A882;
+  --secondary: #8C9E7E;
+  --card: #E8D5C4;
+  --white: #FFFFFF;
+  --shadow: rgba(61,53,48,0.08);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 { font-family: 'Cormorant Garamond', serif; font-weight: 400; letter-spacing: 0.02em; }
+h1 { font-size: clamp(40px, 7vw, 72px); line-height: 1.1; }
+h2 { font-size: clamp(28px, 4vw, 42px); margin-bottom: 1.5rem; }
+h3 { font-size: 20px; font-weight: 600; margin-bottom: 0.5rem; }
+
+.container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+
+.btn {
+  display: inline-block;
+  padding: 14px 36px;
+  font-family: 'Jost', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn-primary {
+  background: var(--accent);
+  color: var(--white);
+  border-radius: 2px;
+}
+.btn-primary:hover { background: #b3936f; transform: translateY(-1px); }
+.btn-outline {
+  background: transparent;
+  color: var(--accent);
+  border: 1.5px solid var(--accent);
+  border-radius: 2px;
+}
+.btn-outline:hover { background: var(--accent); color: var(--white); }
+
+/* ── Hero ── */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--white);
+  overflow: hidden;
+}
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background: url('https://images.unsplash.com/photo-1490750967868-88aa4f44ba42?w=1200') center/cover no-repeat;
+  filter: brightness(0.55) saturate(0.8);
+}
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(61,53,48,0.6) 0%, rgba(61,53,48,0.4) 100%);
+}
+.hero-content { position: relative; z-index: 2; max-width: 700px; padding: 0 24px; }
+.hero h1 { margin-bottom: 1rem; color: var(--white); }
+.hero .subtitle { font-size: 18px; font-weight: 300; opacity: 0.9; margin-bottom: 2.5rem; line-height: 1.6; }
+.hero .btn { background: var(--white); color: var(--text); }
+.hero .btn:hover { background: var(--accent); color: var(--white); }
+.hero-scroll {
+  position: absolute; bottom: 32px; left: 50%; transform: translateX(-50%);
+  color: rgba(255,255,255,0.6); font-size: 13px; letter-spacing: 0.1em;
+  text-transform: uppercase; animation: float 2s ease-in-out infinite;
+}
+@keyframes float { 0%,100% { transform: translateX(-50%) translateY(0); } 50% { transform: translateX(-50%) translateY(8px); } }
+
+/* ── Sections ── */
+section { padding: 90px 0; }
+.section-label {
+  font-size: 12px; font-weight: 500; text-transform: uppercase;
+  letter-spacing: 0.15em; color: var(--secondary); margin-bottom: 4px;
+}
+.section-alt { background: var(--card); }
+
+/* ── Technique ── */
+.technique-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;
+}
+.technique-text p { margin-bottom: 1rem; }
+.diagram {
+  display: flex; flex-direction: column; align-items: center; gap: 0;
+}
+.diagram-ring {
+  display: flex; align-items: center; justify-content: center;
+  border: 2px solid var(--accent); border-radius: 50%; position: relative;
+}
+.ring-1 { width: 280px; height: 280px; }
+.ring-2 { width: 210px; height: 210px; }
+.ring-3 { width: 150px; height: 150px; }
+.ring-4 { width: 100px; height: 100px; }
+.ring-5 { width: 50px; height: 50px; background: var(--accent); border: none; }
+.diagram-label {
+  position: absolute; font-size: 11px; color: var(--text); font-weight: 500;
+  white-space: nowrap; background: var(--card); padding: 2px 8px; border-radius: 10px;
+}
+.label-outer { top: -12px; }
+.label-inner { bottom: -12px; }
+
+/* ── Gallery ── */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.gallery-card {
+  aspect-ratio: 1;
+  border-radius: 4px; cursor: pointer; overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+.gallery-card:hover { transform: scale(1.03); box-shadow: 0 12px 40px var(--shadow); }
+.gallery-card::after {
+  content: '';
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg, transparent 60%, rgba(61,53,48,0.3));
+}
+.gallery-card .label {
+  position: absolute; bottom: 16px; left: 16px; z-index: 2;
+  color: white; font-size: 14px; font-weight: 400;
+}
+
+/* Lightbox */
+.lightbox {
+  display: none; position: fixed; inset: 0; z-index: 999;
+  background: rgba(10,8,6,0.95); justify-content: center; align-items: center;
+}
+.lightbox.active { display: flex; }
+.lightbox-close {
+  position: absolute; top: 24px; right: 32px;
+  font-size: 40px; color: white; cursor: pointer; line-height: 1;
+}
+.lightbox-content {
+  width: 300px; height: 300px; border-radius: 50%;
+  background-size: cover; background-position: center;
+}
+.lightbox-caption { color: rgba(255,255,255,0.7); margin-top: 20px; font-size: 15px; text-align: center; }
+
+/* ── Process ── */
+.process-steps {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; text-align: center;
+}
+.process-step .icon { font-size: 48px; margin-bottom: 16px; display: block; }
+.process-step .number {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 28px; color: var(--accent); margin-bottom: 8px;
+}
+.process-arrow { display: none; }
+
+/* ── Order ── */
+.order-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start; }
+.order-form { display: flex; flex-direction: column; gap: 16px; }
+.order-form input, .order-form textarea {
+  padding: 14px 16px; border: 1px solid rgba(61,53,48,0.15);
+  border-radius: 2px; font-family: 'Jost', sans-serif; font-size: 16px;
+  background: var(--white); color: var(--text); transition: border-color 0.2s;
+}
+.order-form input:focus, .order-form textarea:focus {
+  outline: none; border-color: var(--accent);
+}
+.order-form textarea { min-height: 100px; resize: vertical; }
+.messenger-btns { display: flex; flex-direction: column; gap: 12px; }
+
+/* ── Footer ── */
+.footer { text-align: center; padding: 48px 24px; border-top: 1px solid rgba(61,53,48,0.08); }
+.footer .brand { font-family: 'Cormorant Garamond', serif; font-size: 24px; margin-bottom: 4px; }
+.footer .tagline { font-size: 14px; color: var(--secondary); margin-bottom: 20px; }
+.footer .socials { display: flex; justify-content: center; gap: 16px; }
+.footer .socials a { color: var(--text); text-decoration: none; font-size: 14px; }
+.footer .copy { margin-top: 20px; font-size: 12px; color: rgba(61,53,48,0.4); }
+
+/* ── Animations ── */
+.fade-section { opacity: 0; transform: translateY(30px); transition: all 0.7s ease; }
+.fade-section.visible { opacity: 1; transform: translateY(0); }
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  section { padding: 60px 0; }
+  .technique-grid { grid-template-columns: 1fr; gap: 32px; }
+  .diagram { transform: scale(0.8); }
+  .gallery-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .process-steps { grid-template-columns: 1fr; gap: 24px; }
+  .order-grid { grid-template-columns: 1fr; gap: 32px; }
+  .hero .subtitle { font-size: 16px; }
+}
+</style>
+</head>
+<body>
+
+<!-- ═══ HERO ═══ -->
+<header class="hero">
+  <div class="hero-bg" role="img" aria-label="Сухоцветы"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1>Цветок, остановленный навсегда</h1>
+    <p class="subtitle">Сухоцветы между стёкол — японская техника осибана в витражном обрамлении Тиффани. Каждое изделие создаётся вручную и существует в единственном экземпляре.</p>
+    <a href="#gallery" class="btn btn-primary">Смотреть работы</a>
+  </div>
+  <span class="hero-scroll">↓ Листайте</span>
+</header>
+
+<main>
+<!-- ═══ О ТЕХНИКЕ ═══ -->
+<section id="about" class="fade-section">
+  <div class="container">
+    <span class="section-label">О технике</span>
+    <h2>Как это устроено</h2>
+    <div class="technique-grid">
+      <div class="technique-text">
+        <p><strong>Осибана</strong> — японское искусство прессованной флористики: засушенные цветы и травы, сохраняющие форму и цвет десятилетиями. Мы добавляем к этому <strong>700 лет витражного мастерства</strong> — технику Тиффани, где каждый фрагмент стекла оборачивается медной фольгой и спаивается оловянным припоем.</p>
+        <p>Цветок оказывается запечатанным между двумя стёклами — навсегда. Ни влага, ни время, ни свет не доберутся до него. Готовое изделие вставляется в деревянную подставку ручной работы.</p>
+      </div>
+      <div class="diagram" aria-label="Схема слоёв изделия">
+        <div class="diagram-ring ring-1"><span class="diagram-label label-outer">Стекло 4 мм</span>
+          <div class="diagram-ring ring-2"><span class="diagram-label label-outer">Цветок</span>
+            <div class="diagram-ring ring-3"><span class="diagram-label label-outer">Стекло 4 мм</span>
+              <div class="diagram-ring ring-4"><span class="diagram-label label-inner">Припой (Sn)</span>
+                <div class="diagram-ring ring-5"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p style="margin-top:24px;font-size:14px;color:var(--secondary);">Стекло → Цветок → Стекло → Припой → Подставка</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ ГАЛЕРЕЯ ═══ -->
+<section id="gallery" class="section-alt fade-section">
+  <div class="container">
+    <span class="section-label">Работы</span>
+    <h2>Каждый — единственный</h2>
+    <p style="margin-bottom:32px;max-width:500px;">Ни одно изделие не повторяется — как не повторяются два цветка.</p>
+    <div class="gallery-grid" id="galleryGrid">
+    </div>
+  </div>
+</section>
+
+<!-- ═══ ПРОЦЕСС ═══ -->
+<section id="process" class="fade-section">
+  <div class="container">
+    <span class="section-label">Процесс</span>
+    <h2>Как рождается изделие</h2>
+    <div class="process-steps">
+      <div class="process-step"><span class="icon">🌿</span><div class="number">01</div><h3>Сбор и сушка</h3><p>Цветы собираются вручную в сезон и высушиваются под прессом 2–3 недели.</p></div>
+      <div class="process-step"><span class="icon">📖</span><div class="number">02</div><h3>Прессование</h3><p>Сухие цветы укладываются в композицию между двумя листами стекла.</p></div>
+      <div class="process-step"><span class="icon">🔥</span><div class="number">03</div><h3>Пайка (Тиффани)</h3><p>Торец оборачивается медной фольгой и спаивается оловянным припоем.</p></div>
+      <div class="process-step"><span class="icon">🪵</span><div class="number">04</div><h3>Подставка</h3><p>Готовое стекло вставляется в деревянную подставку — и изделие завершено.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ ЗАКАЗ ═══ -->
+<section id="order" class="section-alt fade-section">
+  <div class="container">
+    <span class="section-label">Заказ</span>
+    <h2>Хочу такое</h2>
+    <div class="order-grid">
+      <form class="order-form" onsubmit="handleOrder(event)">
+        <input type="text" placeholder="Ваше имя" required>
+        <input type="tel" placeholder="Телефон или @username" required>
+        <textarea placeholder="Что вам интересно: размер, цветы, повод..."></textarea>
+        <button type="submit" class="btn btn-primary">Отправить</button>
+      </form>
+      <div>
+        <p style="margin-bottom:20px;">Или напишите нам напрямую — обсудим, что будет внутри вашего стекла.</p>
+        <div class="messenger-btns">
+          <a href="https://t.me/" class="btn btn-outline" target="_blank">💬 Telegram</a>
+          <a href="https://wa.me/" class="btn btn-outline" target="_blank">💬 WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ═══ FOOTER ═══ -->
+<footer class="footer">
+  <div class="brand">Осибана</div>
+  <div class="tagline">Каждое изделие — единственное</div>
+  <div class="socials">
+    <a href="#">Instagram</a>
+    <a href="#">Telegram</a>
+    <a href="#">WhatsApp</a>
+  </div>
+  <div class="copy">© 2026 Осибана</div>
+</footer>
+
+<!-- ═══ LIGHTBOX ═══ -->
+<div class="lightbox" id="lightbox">
+  <span class="lightbox-close" onclick="closeLightbox()">×</span>
+  <div class="lightbox-content" id="lightboxContent"></div>
+  <div class="lightbox-caption" id="lightboxCaption"></div>
+</div>
+
+<script>
+// ── Gallery data ──
+const flowers = [
+  { name: 'Гортензия', colors: ['#E8C4C8','#D4A0A7'] },
+  { name: 'Лаванда',   colors: ['#C8D4E8','#A7B4D4'] },
+  { name: 'Мята',      colors: ['#C8E8D4','#A7D4B4'] },
+  { name: 'Персик',    colors: ['#E8D4C8','#D4B4A7'] },
+  { name: 'Незабудка', colors: ['#C8D0E8','#A7B4D0'] },
+  { name: 'Сиреневый', colors: ['#D8C8E8','#C4A7D4'] },
+];
+
+// ── Render gallery ──
+const grid = document.getElementById('galleryGrid');
+flowers.forEach((f, i) => {
+  const card = document.createElement('div');
+  card.className = 'gallery-card';
+  card.style.background = `linear-gradient(135deg, ${f.colors[0]}, ${f.colors[1]})`;
+  card.innerHTML = `<span class="label">${f.name}</span>`;
+  card.onclick = () => openLightbox(i);
+  grid.appendChild(card);
+});
+
+// ── Lightbox ──
+function openLightbox(i) {
+  const f = flowers[i];
+  document.getElementById('lightboxContent').style.background =
+    `linear-gradient(135deg, ${f.colors[0]}, ${f.colors[1]})`;
+  document.getElementById('lightboxCaption').textContent = f.name;
+  document.getElementById('lightbox').classList.add('active');
+}
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('active');
+}
+document.getElementById('lightbox').addEventListener('click', function(e) {
+  if (e.target === this) closeLightbox();
+});
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+
+// ── Scroll animations ──
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) entry.target.classList.add('visible');
+  });
+}, { threshold: 0.15 });
+document.querySelectorAll('.fade-section').forEach(el => observer.observe(el));
+
+// ── Order form ──
+function handleOrder(e) {
+  e.preventDefault();
+  alert('✨ Спасибо! Мы свяжемся с вами в ближайшее время.');
+  e.target.reset();
+}
+</script>
+
+</body>
+</html>

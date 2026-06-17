@@ -176,7 +176,7 @@ async def transcribe_voice(file_path: str) -> str:
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "🤖 **Бот запущен**\\n\\n"
+        "🤖 **Бот запущен**\n\n"
         "Задай вопрос текстом или голосовым — я найду ответ в базе данных."
     )
 

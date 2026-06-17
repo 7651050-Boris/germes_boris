@@ -34,3 +34,10 @@ Thumbs.db
 # Temp
 /tmp/
 *.tmp
+node/
+.env
+google_client_secret.json
+*.lock
+*.pid
+cache/
+image_cache/
