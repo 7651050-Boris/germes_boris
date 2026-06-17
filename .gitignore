@@ -1,0 +1,36 @@
+# Secrets — NEVER commit
+.env
+config.yaml
+auth.json
+credentials/
+
+# Big data files
+data/*.db
+data/*.sqlite
+*.xlsb
+*.xlsx
+
+# Runtime
+sessions/
+logs/
+*.log
+audio_cache/
+checkpoints/
+state.db*
+home/
+gateway_runtime/
+cron/output/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+/tmp/
+*.tmp
