@@ -1,0 +1,7 @@
+name: replicate
+version: 1.0.0
+description: "Replicate video generation backend (MiniMax Video-01 Live, Veo 2, HunyuanVideo, Wan 2.1)."
+author: NousResearch
+kind: backend
+requires_env:
+  - REPLICATE_API_TOKEN
